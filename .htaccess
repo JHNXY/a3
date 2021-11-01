@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /home/sh0/S3652190/public_html/wp/a3/.httpd
+Require valid-user
