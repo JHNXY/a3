@@ -28,6 +28,30 @@ header h2 {
     font-size: 4rem;
 }
 
+/* navigation with grid model */
+nav {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid #333;
+}
+
+/* No dots in list */
+nav li {
+    list-style: none;
+}
+
+/* anchor tag style */
+nav li a {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
+
 /* div that contains all the members uses grid model */
 .container {
     display: grid;
