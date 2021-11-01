@@ -1,3 +1,4 @@
+<!-- Footer with name, modficiation time and github link -->
 <footer>
     <p>Haonan Jiang</p>
     <p><?php echo date('d-m-Y H:i:s', filemtime('./partials/footer.php')) ?></p>
