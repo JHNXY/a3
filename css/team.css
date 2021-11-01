@@ -101,3 +101,21 @@ nav li a {
     left: 50%;
     transform: translate(-50%, 0);
 }
+
+/* Footer with grid model */
+footer {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background: #333;
+    color: #fff;
+}
+
+/* Github repo link style */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
