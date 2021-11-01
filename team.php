@@ -7,7 +7,7 @@ $api_key = '312HqH0OJm8sNBZqjOpCgJtteK4JXTbn979qHyKmpSE';
 <div class="container">
     <div class="item">
         <div class="avataar-container">
-
+            <img src="./assets/images/lisa.svg" alt="">
         </div>
         <p class="name">LISA MAHETA</p>
         <p class="designation">MARKETING</p>
@@ -19,7 +19,7 @@ $api_key = '312HqH0OJm8sNBZqjOpCgJtteK4JXTbn979qHyKmpSE';
     </div>
     <div class="item">
         <div class="avataar-container">
-
+            <img src="./assets/images/john.svg" alt="">
         </div>
         <p class="name">JOHN MEKER</p>
         <p class="designation">DESIGNER</p>
@@ -31,7 +31,7 @@ $api_key = '312HqH0OJm8sNBZqjOpCgJtteK4JXTbn979qHyKmpSE';
     </div>
     <div class="item">
         <div class="avataar-container">
-
+            <img src="./assets/images/vin.svg" alt="">
         </div>
         <p class="name">VIN DEASEL</p>
         <p class="designation">PRODUCTOR</p>
