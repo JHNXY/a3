@@ -1,0 +1,64 @@
+/* All the html elements has this style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Width of page cannot exceed width of the browser */
+html, body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* div that contains all the members */
+.container {
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-column-gap: 10px;
+}
+
+/* Each memeber is contained individually */
+.container .item {
+    height: 100%;
+}
+
+/* Each element within item will have 10px bottom margin */
+.container .item > * {
+    margin-bottom: 10px;
+}
+
+/* Name of the memebr has violet background and white color */
+.container .item .name {
+    padding: 1rem;
+    background-color: blueviolet;
+    color: #fff;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Designation has grey color font */
+.container .item .designation {
+    color: #666;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+/* Displays a nice line under designation */
+.container .item .designation::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: blueviolet;
+    bottom: -2px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
